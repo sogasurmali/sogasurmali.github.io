@@ -497,3 +497,6 @@ a:hover>.more svg,.more:hover svg{transform:translateX(4px)}
 .video-frame::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--gold);z-index:0}
 .video-frame video{position:relative;z-index:1;display:block;width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;border-radius:var(--radius);box-shadow:var(--shadow)}
 @media (max-width:480px){.video-frame{max-width:320px}.video-frame::before{inset:10px -8px -10px 8px}}
+
+/* Carte : actions sous la carte */
+.map-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-top:18px}
