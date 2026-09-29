@@ -500,3 +500,13 @@ a:hover>.more svg,.more:hover svg{transform:translateX(4px)}
 
 /* Carte : actions sous la carte */
 .map-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-top:18px}
+
+/* Caractéristiques des offres */
+.offer-feats{list-style:none;padding:0;margin:0 0 4px}
+.offer-feats li{position:relative;padding-left:26px;margin-bottom:10px;font-size:.92rem}
+.offer-feats li::before{content:"";position:absolute;left:0;top:.5em;width:13px;height:7px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+.offer-premium .offer-feats li{color:#e5dccd}
+@media (min-width:640px){.offers{grid-template-columns:repeat(2,minmax(0,1fr));max-width:860px;margin:0 auto}}
+@media (min-width:1120px){.offers{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.glance-2 .g-cell strong{font-size:clamp(1rem,2.2vw,1.2rem);line-height:1.2}
+.glance-2 .g-cell span{letter-spacing:.06em}
